@@ -75,4 +75,4 @@ There is no generally accepted taxonomy into which all computer networks fit, bu
 
 - Enterprise networks: when LANs are used by companies.
 
-- Wireless LANs: 
+- Wireless LANs: too much trouble to install cables. computers have radio modems and antennas
