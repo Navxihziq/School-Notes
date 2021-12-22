@@ -9,6 +9,11 @@
   - [Network Hardware](#network-hardware)
     - [Personal Area Networks (PANs)](#personal-area-networks-pans)
     - [Local Area Networks (LAN)](#local-area-networks-lan)
+    - [Metropolitan Area Networks:](#metropolitan-area-networks)
+    - [Wide Area Networks](#wide-area-networks)
+    - [Internetworks](#internetworks)
+  - [Network Software](#network-software)
+    - [Protocol Hierarchies](#protocol-hierarchies)
 
 - **Definition of computer network:** a collection of autonomous computers interconnected by a single technology
 - **distributed system vs. computer networks**: 
@@ -93,4 +98,19 @@ There is no generally accepted taxonomy into which all computer networks fit, bu
     - To build larger LANs switches can be plugged into each other using their ports
       - what if you connect them in a loop? 
 
-- Virtual LAN (VLAN): 
+  - Virtual LAN (VLAN): in this design each port is tagged with a "color"
+
+  - classic Ethernet: broadcast all the packets over a single linear cable.
+
+### Metropolitan Area Networks:
+- e.g.: cable tv networks available in many cities
+
+### Wide Area Networks
+- spans a large geographical area, often a country or continent
+- VPN (Virtual Private Network): 
+
+### Internetworks
+
+## Network Software
+
+### Protocol Hierarchies
