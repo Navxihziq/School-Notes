@@ -56,7 +56,8 @@
 There is no generally accepted taxonomy into which all computer networks fit, but 2 dimensions stand out as important:
 1. transmission technology:
     - broadcast: the communication channel is shared by all the machines on the network; packets sent by any machine are received by all the others. **An address field within each packet specifies the intended recipient.** Upon receiving a packet, a machine checks the address field. If the packet is intended for th receiving machine, that machine processes the packets, otherwise ignores it.
-
+    - broadcasting: using a special code, the packet can be transmitted to all machines
+    - multicasting: transmission to a subset of the machines
 
     - point-to-point: connects individual pairs of machines; To go from the source to the destination on a network made up of point-to-point links, short messages, called packets in certain context, may have to first visit one or more intermediate machines. Often multiple route, of different lengths, are possible, so finding good ones is important ni point-to-point networks.
       - unicasting: point0to-point transmission with exactly one sender and exactly one receiver
@@ -75,4 +76,21 @@ There is no generally accepted taxonomy into which all computer networks fit, bu
 
 - Enterprise networks: when LANs are used by companies.
 
-- Wireless LANs: too much trouble to install cables. computers have radio modems and antennas
+- Wireless LANs: too much trouble to install cables. computers have radio modems and antennas used to communicate with other networks.
+  - **AP (Access Point), wireless router, or base station**: relays packets between the wireless computers and also between them and the Internet. "Being the AP is like being the popular kid at school because everyone wants to talk to you."
+  - **IEEE 802.11**: **WiFi**
+
+- Wired LANs:
+  - restricted in size
+
+  - compared to wireless networks, wired LANs exceed them in all dimensions of performance. "It's just easier to send signals over a wire or through a fiber than through the air."
+
+  - transmission technologies: most of them use copper wires, but some use optical fiber
+
+  - IEEE 802.3: **Ethernet**, the most common type of wire LAN.
+    - switched Ethernet: each computer speaks the Ethernet protocol and connects to a box called a **switch** with a point-to-point link.
+    - a switch has multiple **ports**: each of which can connect to one computer
+    - To build larger LANs switches can be plugged into each other using their ports
+      - what if you connect them in a loop? 
+
+- Virtual LAN (VLAN): 
